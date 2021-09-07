@@ -13,7 +13,7 @@ Reproductor for https://github.com/fluent/fluent-bit/issues/3766
  ```
  * in first terminal, run consumer on kafka to watch for new messages
  ```
- docker exec -it fluentbit-3766-reproductor-reproductor_kafka_1 /opt/kafka/bin/kafka-console-consumer.sh --topic fluentbit-test --bootstrap-server kafka:9092
+ docker exec -it fluentbit-3766-reproductor_kafka_1 /opt/kafka/bin/kafka-console-consumer.sh --topic fluentbit-test --bootstrap-server kafka:9092
  ```
  * in second terminal run fluentbit interactively
  ```
